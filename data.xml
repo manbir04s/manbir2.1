@@ -1,0 +1,31 @@
+<ui-components>
+  <!-- Interactions -->
+  <draggable class="draggable" isDraggable="true">Drag me!</draggable>
+  <droppable class="droppable" isDroppable="true"></droppable>
+  <resizable class="resizable" isResizable="true" initialWidth="200" initialHeight="100">Resize me!</resizable>
+  <selectable class="selectable">
+    <item class="ui-selectee">Item 1</item>
+    <item class="ui-selectee">Item 2</item>
+    <item class="ui-selectee">Item 3</item>
+    <item class="ui-selectee">Item 4</item>
+  </selectable>
+
+  <!-- Widgets -->
+  <accordion id="accordion">
+    <section title="Section 1" isExpanded="true">Content for Section 1</section>
+    <section title="Section 2">Content for Section 2</section>
+    <section title="Section 3">Content for Section 3</section>
+  </accordion>
+  <autocomplete id="autocomplete"></autocomplete>
+  <datepicker id="datepicker"></datepicker>
+  <slider id="slider"></slider>
+
+  <!-- Effects -->
+  <button id="show">Show</button>
+  <button id="hide">Hide</button>
+  <button id="explodeButton">Explode</button>
+  <button id="fadeInButton">Fade In</button>
+  <button id="fadeOutButton">Fade Out</button>
+  <effect id="fade" class="effect-div"></effect>
+  <effect id="colorAnimation" class="effect-div"></effect>
+</ui-components>
